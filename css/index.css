@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(14, 6, 59);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo{
+    height:10vh;
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+.formulaire{
+    width: 100%;
+    height: 50vh;
+    margin-top: -2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.connect{
+    height: 50vh;
+    width: 20%;
+    text-align: center;
+    margin-top: 10vh;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    padding-top: 4vh;
+}
+.connect input{
+    margin-top: 5vh;
+    width: 80%;
+    height: 5vh;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    border: none;
+    text-align: center;
+}
+.connect span{
+    margin-top: 5vh;
+}
+.publication{
+    float: left;
+    width: 85%;
+    height: 100vh;
+}
+.stat{
+    float: right;
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(14, 6, 59);
+}
+.add1{
+    height: 10vh;
+    background-color: aqua;
+    width: 100%;
+}
+.create{
+    height: 50vh;
+    width: 20%;
+    text-align: center;
+    margin-top: 10vh;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    padding-top: 4vh;
+}
+.create input{
+    width: 80%;
+    height: 4vh;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    margin-top: 2vh;
+    border: none;
+    text-align: center;
+
+}
+.picture{
+    height: 50vh;
+    width: 20%;
+    text-align: center;
+    margin-top: 10vh;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    padding-top: 4vh;
+}
+.picture input{
+    width: 80%;
+    height: 4vh;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    margin-top: 7vh;
+    border: none;
+    text-align: center;
+
+}

@@ -1,0 +1,8 @@
+	Nowadays , Databases take a great place on our life and a computer scientist should know to manipulate it .
+But how to manipule it and how to choose the type of it ? for this reason that I write this writing to tel you the choice of the database and the reason of It 
+	First , there are many type of database like : MariaDB, Sqlite , Mysql .But each one but everyone has a different approach to it If you use Mysql, you need to have a mysql connector to connect it to the application being developed
+and you need to know the syntax of Sql,
+Secondly , often used when using non-local applications and it is very pratical cause it's very fine  your HAProxy instances to improve the performance of your web application. Optimize your database and speed up your server with an advanced load balancing software. A database load balancing software is designed to deliver the agility and scalability needed to expand capabilities and meet both unplanned and anticipated performance demands.
+and it is very secure Audits and Optimizing Queries 
+
+	For conclur, There a many type of Databases but Mysql is very pratical and very perfect than other databases ,It's very easy and most used on our life 

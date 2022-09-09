@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+}
+.share{
+    height: 100vh;
+    width: 100%;
+}
+.menu{
+
+    height:100vh;
+    width:15%;
+    background-color: rgb(14, 6, 59);
+    float: left;
+}
+.menu ul li{
+    width: 90%;
+    height:5vh;
+    margin-left: 5%;
+    margin-top: 3vh;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.menu ul{
+    list-style-type: none;
+    margin-top: 5vh;
+}
+.table{
+    height: 50vh;
+    width: 90%;
+    margin-left:5%;
+    margin-top: 5vh;
+    border-radius:15px;
+   
+}
+
+.title{
+    height: 10vh;
+    width: 100%;
+}
+.title_title{
+    width: 90%;
+    float: left;
+    text-align: center;
+    margin-top: 1vh;
+}
+.table table{
+    width: 90%;
+    height: 40vh;
+    margin-left: 5%;
+}
+.table tr{
+    height:3vh;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.table tr td{
+    text-align: center;
+}
+.control{
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.control button{
+    height: 5vh;
+    width: 10%;
+    margin-left: 2%;
+}
+.logo{
+    height:20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin-top: 5vh;
+}
+
+.action{
+    float: right;
+    width: 85%;
+    height: 100vh;
+ 
+}
+.publication{
+    float: left;
+    width: 81%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5vh;
+    height: 90vh;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    border-radius: 15px;
+}
+.search{
+    height: 7vh;
+    margin-top: 5vh;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.search .input{
+    width:80%;
+    height: 6vh;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.search .button{
+    height: 6vh;
+    width: 16%;
+    margin-left: 1%;
+    width:15%;
+    background-color: rgb(62, 43, 129);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.stat{
+    margin-top: 5vh;
+    float: right;
+    width: 15%;
+    height: 90vh;
+    margin-right: 2%;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    border-radius: 15px;
+}
+.public{
+    height: 70vh;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    margin-top: 5vh;
+    border-radius: 15px;
+    overflow-y: scroll;
+    
+}
+.active{
+    background-color: rgb(62, 43, 129);
+}
+.style{
+    margin-top: 5vh;
+    width: 90%;
+    margin-left: 5%;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.style div{
+    height: 15vh;
+    width:25%;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    margin-left: 3%;
+    border-radius: 5px;
+}
+.qr{
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.qr img{
+    height:150px;
+    width: 150px;
+}
+
+.global{
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0vh;
+    
+}
+.stat_pers{
+    height: 150px ;
+    width: 150px;
+    margin-top: 10vh;
+    border-radius: 100%;
+    background-color: rebeccapurple;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.personne{
+    margin-top: 5vh;
+    height:12vh;
+    width: 90%;
+    margin-left: 5%;
+ 
+   
+}
+.personne_img{
+    float: left;
+    width:8%;
+    height: 7vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.personne_img img{
+    height: 40px;
+    width:40px ;
+    border-radius: 100%;
+}
+.description{
+    float: right;
+    width:92%;
+    height: 7vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.description div{
+    width: 30%;
+    height: 7vh;
+    margin: 1%;
+    
+    
+}
+.name h5{
+    margin-top: 1vh;
+}
+
+.follow button{
+    width: 80%;
+    height: 5vh;
+    margin-top: 1vh;
+}
+.note{
+    height: 10vh;
+    width: 100%;
+    color: white;
+    font-size: x-small;
+  
+}
+.part1{
+    width: 50%;
+    background-color: rgb(62, 43, 129);
+    height: 10vh;
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.part3{
+    width: 50%;
+    height: 10vh;
+    float:left;
+    background-color: rgb(10, 3, 36);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.part4{
+    width: 50%;
+    background-color: rgb(62, 43, 129);;
+    height: 10vh;
+    float: right;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.part2{
+    width: 50%;
+    background-color: rgb(10, 3, 36);
+    height: 10vh;
+    float: right;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.rond_1 .s{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: 32%;
+    
+}
+a{
+    color: white;
+
+}
+.logo1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.logo1 img{
+    width: 150px;
+}
+.files{
+    width: 50%;
+    height: 50vh;
+    margin-top: 25vh;
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-left: 25%;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+}
+.profil{
+    width: 50%;
+    height: 50vh;
+    margin-top: 25vh;
+    position: absolute;
+    background-color: white;
+    margin-left: 25%;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+}
+.change{
+    height: 30vh;
+    width: 100%;
+    margin-top: 10vh;
+
+}
+.change form{
+    height: 30vh;
+    width: 100%;
+
+}
+.change form input{
+    width: 80%;
+    margin-left: 10%;
+    height: 5vh;
+}
+.by{
+    height: 7vh;
+    width: 100%;
+
+}
+.by_title{
+    width: 90%;
+    float: left;
+    text-align: center;
+    margin-top: 2vh;
+}
+.quit{
+    float: right;
+    margin-top: 2vh;
+    margin-right: 2%;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    background-color:rgb(62, 43, 129);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.files form{
+    height: 40vh;
+    margin-top: 7vh;
+    position: absolute;
+    width: 100%;
+}
+.div1{
+    height:30vh;
+    margin-left: 5%;
+    background-color: white;
+    width: 40%;
+    margin-top: 2vh;
+    float: left;
+}
+.div2{
+    height:30vh;
+    margin-left: 5%;
+    background-color: white;
+    width: 40%;
+    margin-top: 2vh;
+    float: right;
+    margin-right: 3%;
+}
+.envoyer{
+    height: 7vh;
+    background-color: rgb(62, 43, 129);
+    width:30%;
+    margin-left: 35%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.div1 input{
+    height:5vh;
+    width: 80%;
+    margin-top: 3vh;
+    margin-left: 5%;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.div2 input{
+    height:5vh;
+    width: 80%;
+    margin-top: 3vh;
+    margin-left: 5%;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.details{
+    height: 70vh;
+    width: 22%;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15vh;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    background-color: white;
+    /*display: none;*/
+    
+}
+.sary img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-top: 2vh;
+}
+.down{
+    height: 10vh;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+ 
+}
+
+.down img{
+    height: 50px;
+    margin-top: 1vh;
+    margin-right: 10%;
+
+}
+.cmt{
+    height: 5vh;
+    width: 96%;
+    margin-left: 2%;
+   margin-top: 2vh;
+   border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+}
+.cmt div{
+    width: 30%;
+    height: 5vh;
+ 
+   margin-right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cmt img{
+    width: 25px;
+}
+.dislike{
+    display: none;
+}
+.down1 {
+    height: 25vh;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2vh;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+}
+.texto{
+    width: 70%;
+    height: 3vh;
+    margin-left: 2%;
+   
+}
+.send{
+    height: 4vh;
+    width: 20%;
+}
+.cmt1{
+    float: left;
+    width:15%;
+    margin-left: 5%;
+}
+.cmt1 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+.cmt2{
+    float: left;
+    height: 80%; 
+    
+}
+.cmd{
+    height: 19vh;
+    width: 100%;
+    overflow-y: scroll;
+    
+}
+.atao{
+    height: 5vh;
+    margin-top: 2vh;
+}
+details1{
+    height: 5vh;
+    width: 100%
+}
+.details_title{
+    width:90%;
+    height: 3vh;
+    margin-top: 1vh;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exite{
+    width:9%;
+    height: 3vh;
+    margin-top: 1vh;
+    background-color:rgb(62, 43, 129);
+    float: right;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%;
+}
+.pdp{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pdp img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.done{
+    height: 50vh;
+    width: 100%;
+    overflow-y: scroll;
+}
+.set{
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    color: rgb(62, 43, 129);
+}
+.set form input{
+    height: 5vh;
+    width: 100%;
+    margin-top: 2vh;
+    text-align: center;
+    background: none;
+    color: whitesmoke;
+    border: none;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    border-radius: 12px;
+}
+.setting{
+    height: 74vh;
+    width: 22%;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 13vh;
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgb(62, 43, 129);
+    background-color: rgb(14, 6, 59);
+}
+
+
